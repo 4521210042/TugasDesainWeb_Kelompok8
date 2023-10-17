@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Painting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <h1 class="logo">World Of Painting</h1>
+        <ul class="nav-links">
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tour</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful Painting</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL <span>GIFT</span></h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>    
+    </header>
+
+    <!-- Events -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/1.png" alt="">
+                <h4>Etsy Finland</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum rerum, nobis qui ipsum sapiente veniam deleniti soluta iusto alias sunt.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/2.jpeg" alt="">
+                <h4>Autumn Impressionism</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum rerum, nobis qui ipsum sapiente veniam deleniti soluta iusto alias sunt.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World Of Painting</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis deserunt ipsa cum sunt, illo itaque at porro! Recusandae fugit minima nobis fuga saepe, ab cupiditate.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
